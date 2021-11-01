@@ -1,4 +1,4 @@
-const replyToMessage = (ctx: any, messageId: string) =>
+const replyToMessage = (ctx,messageId) =>
   ctx.reply(string, {
     reply_to_message_id: messageId,
   });
