@@ -1,5 +1,7 @@
 const replyToMessage = (ctx) =>
-  
+  ctx( {
+    reply_to_message_id: messageId,
+  });
 
 const greeting = () => (ctx: any) => {
   const messageId = ctx.message.message_id;
