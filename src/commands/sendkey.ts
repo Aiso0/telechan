@@ -1,6 +1,6 @@
 
 const replyToMessage = (ctx: any, messageId: string) =>
-  ctx.reply( {
+  ctx( {
     reply_to_message_id: messageId,
   });
 
